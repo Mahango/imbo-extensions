@@ -1,0 +1,20 @@
+{
+    "name": "mahango/imbo-extensions",
+    "description": "Extensions for the Imbo (Image box) image server http://www.imbo-project.org/",
+    "require": {
+        "imbo/imbo": ">=0.3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Vickery",
+            "email": "matthew@mahango.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Mahango": "src/"
+        }
+    }
+}
